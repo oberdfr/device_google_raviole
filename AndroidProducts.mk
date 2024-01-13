@@ -41,5 +41,7 @@ COMMON_LUNCH_CHOICES := \
     aosp_whitefin-userdebug \
     aosp_oriole-userdebug \
     aosp_raven-userdebug \
-    raven-user
+    raven-user \
+    raven-userdebug \
+    raven-eng
     #hentai_oriole-user
