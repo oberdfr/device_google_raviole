@@ -37,6 +37,9 @@ TARGET_BOOTLOADER_BOARD_NAME := raven
 USES_DEVICE_GOOGLE_RAVIOLE := true
 BOARD_KERNEL_CMDLINE += disable_dma32=on
 
+PRODUCT_COPY_FILES += \
+    device/google/raviole/raven/displayconfig/display_id_4619827677550801152.xml:$(TARGET_COPY_OUT_VENDOR)/etc/displayconfig/display_id_4619827677550801152.xml
+
 include device/google/gs101/BoardConfig-common.mk
 include device/google/gs101-sepolicy/raven-sepolicy.mk
 include device/google/gs101/wifi/BoardConfig-wifi.mk
