@@ -27,3 +27,5 @@ PRODUCT_BRAND_FOR_ATTESTATION := google
 PRODUCT_MANUFACTURER := Google
 
 PRODUCT_PACKAGES += com.android.vndk.current.on_vendor
+
+$(call inherit-product, vendor/google/raven/raven-vendor.mk)
