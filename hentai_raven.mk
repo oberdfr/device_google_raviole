@@ -17,7 +17,7 @@
 $(call inherit-product, device/google/gs101/hentai-common.mk)
 $(call inherit-product, device/google/raviole/device-raven.mk)
 
-PRODUCT_NAME := raven
+PRODUCT_NAME := hentai_raven
 PRODUCT_NAME_FOR_ATTESTATION := raven
 PRODUCT_DEVICE := raven
 PRODUCT_MODEL := Raven
