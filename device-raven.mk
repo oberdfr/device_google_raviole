@@ -296,4 +296,5 @@ PRODUCT_PRODUCT_PROPERTIES += \
     ro.quick_start.oem_id=00e0 \
     ro.quick_start.device_id=raven
 
+# include custom build
 include device/google/raviole/device-custom.mk

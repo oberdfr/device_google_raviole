@@ -16,16 +16,15 @@
 
 $(call inherit-product, device/google/gs101/hentai-common.mk)
 $(call inherit-product, device/google/raviole/device-raven.mk)
+#$(call inherit-product, vendor/pixel-framework/config.mk)
 
-PRODUCT_NAME := hentai_raven
+PRODUCT_NAME := raven
 PRODUCT_NAME_FOR_ATTESTATION := raven
 PRODUCT_DEVICE := raven
-PRODUCT_MODEL := Raven
+PRODUCT_MODEL := Pixel 6 Pro
 PRODUCT_MODEL_FOR_ATTESTATION := Pixel 6 Pro
 PRODUCT_BRAND := Google
 PRODUCT_BRAND_FOR_ATTESTATION := google
 PRODUCT_MANUFACTURER := Google
 
 PRODUCT_PACKAGES += com.android.vndk.current.on_vendor
-
-$(call inherit-product, vendor/google/raven/raven-vendor.mk)
