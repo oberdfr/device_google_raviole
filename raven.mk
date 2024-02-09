@@ -18,12 +18,24 @@ $(call inherit-product, device/google/gs101/vortex-common.mk)
 $(call inherit-product, device/google/raviole/device-raven.mk)
 
 PRODUCT_NAME := raven
+PRODUCT_SYSTEM_NAME := raven
 PRODUCT_NAME_FOR_ATTESTATION := raven
+
 PRODUCT_DEVICE := raven
-PRODUCT_MODEL := Raven
+PRODUCT_SYSTEM_DEVICE := raven
+PRODUCT_DEVICE_FOR_ATTESTATION := raven
+
+PRODUCT_MODEL := Pixel 6 Pro
+PRODUCT_SYSTEM_MODEL := Pixel 6 Pro
 PRODUCT_MODEL_FOR_ATTESTATION := Pixel 6 Pro
-PRODUCT_BRAND := Google
+
+PRODUCT_BRAND := google
+PRODUCT_SYSTEM_BRAND := google
 PRODUCT_BRAND_FOR_ATTESTATION := google
+
 PRODUCT_MANUFACTURER := Google
+PRODUCT_SYSTEM_MANUFACTURER := Google
+PRODUCT_MANUFACTURER_FOR_ATTESTATION := Google
+
 
 PRODUCT_PACKAGES += com.android.vndk.current.on_vendor
