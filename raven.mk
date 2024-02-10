@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-$(call inherit-product, device/google/gs101/hentai-common.mk)
+$(call inherit-product, device/google/gs101/vortex-common.mk)
 $(call inherit-product, device/google/raviole/device-raven.mk)
 #$(call inherit-product, vendor/pixel-framework/config.mk)
 
