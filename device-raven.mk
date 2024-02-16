@@ -102,14 +102,13 @@ PRODUCT_PACKAGES_DEBUG += \
     sar_test \
     hci_inject
 
-# userdebug specific
-ifneq (,$(filter userdebug eng, $(TARGET_BUILD_VARIANT)))
 # Bluetooth LE Audio Hardware offload
 PRODUCT_PRODUCT_PROPERTIES += \
+    bluetooth.leaudio.dual_bidirection_swb.supported=false \
+    persist.bluetooth.leaudio.notify.idle.during.call=true \
+    persist.bluetooth.leaudio_offload.disabled=false \
     ro.bluetooth.leaudio_offload.supported=true \
-    persist.bluetooth.leaudio_offload.disabled=true \
-    persist.bluetooth.le_audio_test=false
-endif
+    ro.bluetooth.leaudio_switcher.supported=true
 
 # MIPI Coex Configs
 PRODUCT_COPY_FILES += \
