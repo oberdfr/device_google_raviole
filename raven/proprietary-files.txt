@@ -3,7 +3,7 @@
 # product partition
 
 # AiAi
-product/priv-app/DeviceIntelligenceNetworkPrebuilt/DeviceIntelligenceNetworkPrebuilt.apk;PRESIGNED
+# product/priv-app/DeviceIntelligenceNetworkPrebuilt/DeviceIntelligenceNetworkPrebuilt.apk;PRESIGNED
 product/priv-app/DevicePersonalizationPrebuiltPixel2021/DevicePersonalizationPrebuiltPixel2021.apk;PRESIGNED
 
 # Audio
@@ -54,26 +54,26 @@ product/lib/libdmengine.so
 product/lib/libdmjavaplugin.so
 product/lib64/libdmengine.so
 product/lib64/libdmjavaplugin.so
-product/priv-app/CarrierSettings/CarrierSettings.apk;PRESIGNED
-product/priv-app/CarrierWifi/CarrierWifi.apk;PRESIGNED
-product/priv-app/ConnMO/ConnMO.apk
-product/priv-app/DCMO/DCMO.apk
-product/priv-app/DMService/DMService.apk
+# product/priv-app/CarrierSettings/CarrierSettings.apk;PRESIGNED
+# product/priv-app/CarrierWifi/CarrierWifi.apk;PRESIGNED
+# product/priv-app/ConnMO/ConnMO.apk
+# product/priv-app/DCMO/DCMO.apk
+# product/priv-app/DMService/DMService.apk
 product/priv-app/DiagMon/DiagMon.apk
 product/priv-app/EuiccGoogle/EuiccGoogle.apk;PRESIGNED
-product/priv-app/TetheringEntitlement/TetheringEntitlement.apk
+# product/priv-app/TetheringEntitlement/TetheringEntitlement.apk
 
 # VZW
-product/app/VZWAPNLib/VZWAPNLib.apk;PRESIGNED
-product/etc/permissions/com.android.omadm.service.xml
-product/etc/permissions/com.google.omadm.trigger.xml
-product/etc/permissions/com.verizon.apn.xml
-product/etc/permissions/com.verizon.services.xml
-product/etc/permissions/features-verizon.xml
-product/etc/sysconfig/allowlist_com.android.omadm.service.xml
-product/priv-app/AppDirectedSMSService/AppDirectedSMSService.apk;PRESIGNED
-product/priv-app/OemDmTrigger/OemDmTrigger.apk
-product/priv-app/WfcActivation/WfcActivation.apk;PRESIGNED
+# product/app/VZWAPNLib/VZWAPNLib.apk;PRESIGNED
+# product/etc/permissions/com.android.omadm.service.xml
+# product/etc/permissions/com.google.omadm.trigger.xml
+# product/etc/permissions/com.verizon.apn.xml
+# product/etc/permissions/com.verizon.services.xml
+# product/etc/permissions/features-verizon.xml
+# product/etc/sysconfig/allowlist_com.android.omadm.service.xml
+# product/priv-app/AppDirectedSMSService/AppDirectedSMSService.apk;PRESIGNED
+# product/priv-app/OemDmTrigger/OemDmTrigger.apk
+# product/priv-app/WfcActivation/WfcActivation.apk;PRESIGNED
 
 # system_ext partition
 
@@ -127,11 +127,11 @@ system_ext/etc/default-permissions/default-permissions-euiccpixel.xml
 system_ext/etc/permissions/com.android.omadm.radioconfig.xml
 system_ext/etc/permissions/com.google.euiccpixel.permissions.xml
 system_ext/etc/permissions/com.google.euiccpixel.xml
-system_ext/etc/permissions/google-ril.xml
-system_ext/framework/RadioConfigLib.jar
-system_ext/framework/google-ril.jar
-system_ext/priv-app/CarrierSetup/CarrierSetup.apk;PRESIGNED
-system_ext/priv-app/ConnectivityThermalPowerManager/ConnectivityThermalPowerManager.apk
+# system_ext/etc/permissions/google-ril.xml
+# system_ext/framework/RadioConfigLib.jar
+# system_ext/framework/google-ril.jar
+# system_ext/priv-app/CarrierSetup/CarrierSetup.apk;PRESIGNED
+# system_ext/priv-app/ConnectivityThermalPowerManager/ConnectivityThermalPowerManager.apk
 system_ext/priv-app/EuiccGoogleOverlay/EuiccGoogleOverlay.apk
 system_ext/priv-app/EuiccSupportPixel/DKA_RC7_DVT.in
 system_ext/priv-app/EuiccSupportPixel/DKA_RC7_DVT.up
@@ -140,8 +140,9 @@ system_ext/priv-app/EuiccSupportPixel/EuiccSupportPixel.apk;PRESIGNED
 system_ext/priv-app/EuiccSupportPixel/esim-full-ofl-v1.img
 system_ext/priv-app/EuiccSupportPixel/esim-full-v1.img
 system_ext/priv-app/EuiccSupportPixelPermissions/EuiccSupportPixelPermissions.apk;PRESIGNED
-system_ext/priv-app/RilConfigService/RilConfigService.apk
-system_ext/priv-app/grilservice/grilservice.apk;PRESIGNED
+# system_ext/priv-app/RilConfigService/RilConfigService.apk
+# system_ext/priv-app/grilservice/grilservice.apk;PRESIGNED
+product/etc/permissions/android.hardware.telephony.euicc.xml
 
 # RIL
 system_ext/app/OemRilHookService/OemRilHookService.apk
@@ -159,7 +160,21 @@ system_ext/etc/permissions/privapp-permissions-qorvo.xml
 system_ext/priv-app/UwbVendorService/UwbVendorService.apk;PRESIGNED
 
 # VZW
-system_ext/etc/permissions/com.verizon.llkagent.xml
-system_ext/etc/permissions/vzw_mvs_permissions.xml
-system_ext/priv-app/LLKAgent/LLKAgent.apk
-system_ext/priv-app/MyVerizonServices/MyVerizonServices.apk;PRESIGNED
+# system_ext/etc/permissions/com.verizon.llkagent.xml
+# system_ext/etc/permissions/vzw_mvs_permissions.xml
+# system_ext/priv-app/LLKAgent/LLKAgent.apk
+# system_ext/priv-app/MyVerizonServices/MyVerizonServices.apk;PRESIGNED
+
+# Timesync
+system_ext/priv-app/CccDkTimeSyncService/CccDkTimeSyncService.apk;PRESIGNED
+system_ext/framework/org.carconnectivity.android.digitalkey.timesync.jar
+system_ext/framework/org.carconnectivity.android.digitalkey.timesync.jar.fsv_meta
+system_ext/framework/oat/arm64/org.carconnectivity.android.digitalkey.timesync.odex.fsv_meta
+system_ext/framework/oat/arm64/org.carconnectivity.android.digitalkey.timesync.vdex.fsv_meta
+system_ext/framework/oat/arm/org.carconnectivity.android.digitalkey.timesync.odex.fsv_meta
+system_ext/framework/oat/arm/org.carconnectivity.android.digitalkey.timesync.vdex.fsv_meta
+system_ext/etc/permissions/org.carconnectivity.android.digitalkey.timesync.xml
+
+# SSRestartDetector
+product/priv-app/SSRestartDetector/SSRestartDetector.apk
+product/etc/permissions/com.google.SSRestartDetector.xml
