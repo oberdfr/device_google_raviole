@@ -55,6 +55,7 @@ PRODUCT_PACKAGES += \
 
 # Graphics
 PRODUCT_PACKAGES += \
+    ANGLE \
     libEGL_angle \
     libGLESv1_CM_angle \
     libGLESv2_angle
@@ -156,3 +157,33 @@ PRODUCT_PACKAGES += \
 # TFlite
 PRODUCT_PACKAGES += \
     libtensorflowlite_jni
+
+# Properties
+PRODUCT_SYSTEM_PROPERTIES += \
+    persist.uwb.enable_uci_stack=1 \
+    ro.hotword.detection_service_required=true \
+    ro.camerax.extensions.enabled=true
+
+PRODUCT_PRODUCT_PROPERTIES += \
+    setupwizard.feature.enable_wifi_tracker=true \
+    ro.carriersetup.vzw_consent_page=true \
+    setupwizard.feature.lifecycle_refactoring=true \
+    setupwizard.feature.notification_refactoring=true \
+    ro.config.alarm_alert=Fresh_start.ogg \
+    ro.vendor.camera.extensions.package=com.google.android.apps.camera.services \
+    ro.vendor.camera.extensions.service=com.google.android.apps.camera.services.extensions.service.PixelExtensions
+
+PRODUCT_VENDOR_PROPERTIES += \
+    ro.build.expect.bootloader=slider-1.3-10780582 \
+    ro.build.expect.baseband=g5123b-125137-231014-B-10950115 \
+    ro.gfx.angle.supported=true \
+    vendor.debug.ssrdump.type=sscoredump \
+    persist.vendor.ril.use_radio_hal=1.6 \
+    ro.vendor.config.build_carrier=europen \
+    vendor.rild.libpath=libsitril.so \
+    persist.vendor.ril.support_nr_ds=0 \
+    persist.vendor.ril.ecc.use.xml=1 \
+    ro.vendor.uwb.calibration.calibrationpaths=/vendor/etc/uwb/calib_paths \
+    drm.service.enabled=true \
+    media.mediadrmservice.enable=true \
+    ro.vendor.dolby.dax.version=DAX3_G_3.7.3.0_r1
