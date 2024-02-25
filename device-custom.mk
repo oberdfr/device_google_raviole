@@ -13,6 +13,14 @@
 # wireless_charger HAL service
 include device/google/gs-common/wireless_charger/wireless_charger.mk
 
+# --- Only build if TARGET_BUILD_LINEAGEHW is set --- #
+ifeq ($(TARGET_BUILD_LINEAGEHW), true)
+
+# PowerShare
+include hardware/google/pixel/powershare/device.mk
+
+endif
+
 # Build necessary packages for vendor
 
 # Audio
