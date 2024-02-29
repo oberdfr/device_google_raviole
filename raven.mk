@@ -39,4 +39,4 @@ PRODUCT_MANUFACTURER_FOR_ATTESTATION := Google
 
 PRODUCT_PACKAGES += com.android.vndk.current.on_vendor
 
-TARGET_BUILD_LINEAGEHW := true
+TARGET_BUILD_LINEAGEHW := false
