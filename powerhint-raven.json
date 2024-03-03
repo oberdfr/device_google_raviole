@@ -384,8 +384,8 @@
       "Name": "BigControlTempSet",
       "Path": "/dev/thermal/tz-by-name/BIG/trip_point_2_temp",
       "Values": [
-        "90000",
-        "80000"
+        "93000",
+        "85000"
       ],
       "DefaultIndex": 0,
       "ResetOnInit": false
@@ -394,8 +394,8 @@
       "Name": "MidControlTempSet",
       "Path": "/dev/thermal/tz-by-name/MID/trip_point_2_temp",
       "Values": [
-        "90000",
-        "80000"
+        "93000",
+        "85000"
       ],
       "DefaultIndex": 0,
       "ResetOnInit": false
@@ -405,7 +405,7 @@
       "Path": "/dev/thermal/tz-by-name/LITTLE/trip_point_2_temp",
       "Values": [
         "95000",
-        "80000"
+        "87000"
       ],
       "DefaultIndex": 0,
       "ResetOnInit": false
@@ -414,8 +414,8 @@
       "Name": "G3dControlTempSet",
       "Path": "/dev/thermal/tz-by-name/G3D/trip_point_2_temp",
       "Values": [
-        "90000",
-        "80000"
+        "93000",
+        "85000"
       ],
       "DefaultIndex": 0,
       "ResetOnInit": false
@@ -434,8 +434,8 @@
       "Name": "BigSwitchOnTempSet",
       "Path": "/dev/thermal/tz-by-name/BIG/trip_point_1_temp",
       "Values": [
-        "70000",
-        "60000"
+        "72000",
+        "65000"
       ],
       "DefaultIndex": 0,
       "ResetOnInit": false
@@ -444,8 +444,8 @@
       "Name": "MidSwitchOnTempSet",
       "Path": "/dev/thermal/tz-by-name/MID/trip_point_1_temp",
       "Values": [
-        "70000",
-        "60000"
+        "72000",
+        "65000"
       ],
       "DefaultIndex": 0,
       "ResetOnInit": false
@@ -454,8 +454,8 @@
       "Name": "LittleSwitchOnTempSet",
       "Path": "/dev/thermal/tz-by-name/LITTLE/trip_point_1_temp",
       "Values": [
-        "70000",
-        "60000"
+        "75000",
+        "67000"
       ],
       "DefaultIndex": 0,
       "ResetOnInit": false
@@ -464,8 +464,8 @@
       "Name": "G3dSwitchOnTempSet",
       "Path": "/dev/thermal/tz-by-name/G3D/trip_point_1_temp",
       "Values": [
-        "70000",
-        "60000"
+        "75000",
+        "65000"
       ],
       "DefaultIndex": 0,
       "ResetOnInit": false
@@ -679,19 +679,19 @@
     {
       "PowerHint": "LAUNCH",
       "Node": "ReducePreferIdle",
-      "Duration": 5000,
+      "Duration": 4000,
       "Value": "0"
     },
     {
       "PowerHint": "LAUNCH_GPU",
       "Node": "GPUDvfsPeriod",
-      "Duration": 1000,
+      "Duration": 4000,
       "Value": "10"
     },
     {
       "PowerHint": "LAUNCH",
       "Node": "FGPreferIdle",
-      "Duration": 5000,
+      "Duration": 4000,
       "Value": "1"
     },
     {
@@ -702,43 +702,43 @@
     {
       "PowerHint": "LAUNCH",
       "Node": "CPUBigClusterMaxFreq",
-      "Duration": 5000,
+      "Duration": 3000,
       "Value": "9999999"
     },
     {
       "PowerHint": "LAUNCH",
       "Node": "CPUMidClusterMaxFreq",
-      "Duration": 5000,
+      "Duration": 3000,
       "Value": "9999999"
     },
     {
       "PowerHint": "LAUNCH",
       "Node": "CPULittleClusterMaxFreq",
-      "Duration": 5000,
+      "Duration": 3000,
       "Value": "9999999"
     },
     {
       "PowerHint": "LAUNCH",
       "Node": "TAUClampBoost",
-      "Duration": 5000,
+      "Duration": 4000,
       "Value": "765"
     },
     {
       "PowerHint": "LAUNCH",
       "Node": "FGUClampBoost",
-      "Duration": 5000,
+      "Duration": 4000,
       "Value": "159"
     },
     {
       "PowerHint": "LAUNCH",
       "Node": "MemFreq",
-      "Duration": 5000,
+      "Duration": 4000,
       "Value": "3172000"
     },
     {
       "PowerHint": "LAUNCH",
       "Node": "NPITaskPacking",
-      "Duration": 5000,
+      "Duration": 4000,
       "Value": "0"
     },
     {
@@ -1902,25 +1902,25 @@
       "PowerHint": "THERMAL_VIRTUAL-SKIN-HINT_CRITICAL",
       "Node": "BigControlTempSet",
       "Duration": 0,
-      "Value": "80000"
+      "Value": "85000"
     },
     {
       "PowerHint": "THERMAL_VIRTUAL-SKIN-HINT_CRITICAL",
       "Node": "MidControlTempSet",
       "Duration": 0,
-      "Value": "80000"
+      "Value": "85000"
     },
     {
       "PowerHint": "THERMAL_VIRTUAL-SKIN-HINT_CRITICAL",
       "Node": "LittleControlTempSet",
       "Duration": 0,
-      "Value": "80000"
+      "Value": "87000"
     },
     {
       "PowerHint": "THERMAL_VIRTUAL-SKIN-HINT_CRITICAL",
       "Node": "G3dControlTempSet",
       "Duration": 0,
-      "Value": "80000"
+      "Value": "85000"
     },
     {
       "PowerHint": "THERMAL_VIRTUAL-SKIN-HINT_CRITICAL",
@@ -1932,25 +1932,25 @@
       "PowerHint": "THERMAL_VIRTUAL-SKIN-HINT_CRITICAL",
       "Node": "BigSwitchOnTempSet",
       "Duration": 0,
-      "Value": "60000"
+      "Value": "65000"
     },
     {
       "PowerHint": "THERMAL_VIRTUAL-SKIN-HINT_CRITICAL",
       "Node": "MidSwitchOnTempSet",
       "Duration": 0,
-      "Value": "60000"
+      "Value": "65000"
     },
     {
       "PowerHint": "THERMAL_VIRTUAL-SKIN-HINT_CRITICAL",
       "Node": "LittleSwitchOnTempSet",
       "Duration": 0,
-      "Value": "60000"
+      "Value": "67000"
     },
     {
       "PowerHint": "THERMAL_VIRTUAL-SKIN-HINT_CRITICAL",
       "Node": "G3dSwitchOnTempSet",
       "Duration": 0,
-      "Value": "60000"
+      "Value": "65000"
     },
     {
       "PowerHint": "THERMAL_VIRTUAL-SKIN-HINT_CRITICAL",
