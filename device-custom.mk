@@ -182,8 +182,6 @@ PRODUCT_PRODUCT_PROPERTIES += \
     ro.vendor.camera.extensions.service=com.google.android.apps.camera.services.extensions.service.PixelExtensions
 
 PRODUCT_VENDOR_PROPERTIES += \
-    ro.build.expect.bootloader=slider-1.3-10780582 \
-    ro.build.expect.baseband=g5123b-125137-231014-B-10950115 \
     ro.gfx.angle.supported=true \
     vendor.debug.ssrdump.type=sscoredump \
     persist.vendor.ril.use_radio_hal=1.6 \
