@@ -23,6 +23,14 @@ endif
 
 # Build necessary packages for vendor
 
+# ANGLE - Almost Native Graphics Layer Engine
+PRODUCT_PACKAGES += \
+    ANGLE
+
+# EUICC
+PRODUCT_COPY_FILES += \
+    frameworks/native/data/etc/android.hardware.telephony.euicc.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/android.hardware.telephony.euicc.xml
+
 # Audio
 PRODUCT_PACKAGES += \
     libaudioroutev2.vendor \
