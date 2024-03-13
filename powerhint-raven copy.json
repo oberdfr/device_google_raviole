@@ -222,6 +222,15 @@
       "ResetOnInit": true
     },
     {
+      "Name": "SchedLibMaskIn",
+      "Path": "/proc/vendor_sched/sched_lib_mask_in",
+      "Values": [
+        "0x100",
+        "0x0"
+      ],
+      "ResetOnInit": true
+    },
+    {
       "Name": "CAMUClampBoost",
       "Path": "/proc/vendor_sched/groups/cam/uclamp_min",
       "Values": [
@@ -750,6 +759,12 @@
     },
     {
       "PowerHint": "LAUNCH",
+      "Node": "SchedLibMaskIn",
+      "Duration": 5000,
+      "Value": "0x100"
+    },
+    {
+      "PowerHint": "LAUNCH",
       "Type": "DoHint",
       "Value": "LAUNCH_GPU"
     },
@@ -900,6 +915,12 @@
       "Node": "FGPreferIdle",
       "Duration": 2000,
       "Value": "1"
+    },
+    {
+      "PowerHint": "LAUNCH_EXTEND",
+      "Node": "SchedLibMaskIn",
+      "Duration": 5000,
+      "Value": "0x100"
     },
     {
       "PowerHint": "LAUNCH_PMU",
