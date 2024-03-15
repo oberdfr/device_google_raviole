@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Whether to show the Preference for Smooth Display -->
+    <bool name="config_show_smooth_display">true</bool>
+
+    <!-- Whether to show Reverse Charging -->
+    <bool name="config_show_reverse_charging">true</bool>
+
+    <!-- Whether to show Clear Calling -->
+    <bool name="config_clear_calling_enabled">false</bool>
+
+    <!-- Whether to show Sim Info -->
+    <bool name="config_show_sim_info">true</bool>
+    
+    <!-- Whether to show Touch Sensitivity -->
+    <bool name="config_show_touch_sensitivity">true</bool>
+
+</resources>

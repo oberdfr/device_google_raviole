@@ -34,6 +34,10 @@ $(call inherit-product-if-exists, vendor/google/raven/raven-vendor.mk)
 
 DEVICE_PACKAGE_OVERLAYS += device/google/raviole/raven/overlay
 
+# SettingsGoogleOverlay
+PRODUCT_PACKAGES += \
+    SettingsGoogleOverlayRaven
+
 include device/google/raviole/audio/raven/audio-tables.mk
 include device/google/gs101/device-shipping-common.mk
 include device/google/gs101/telephony/pktrouter.mk
