@@ -34,9 +34,15 @@ $(call inherit-product-if-exists, vendor/google/raven/raven-vendor.mk)
 
 DEVICE_PACKAGE_OVERLAYS += device/google/raviole/raven/overlay
 
+ifeq ($(TARGET_PREBUILT_PIXELAPPS), true)
 # SettingsGoogleOverlay
 PRODUCT_PACKAGES += \
     SettingsGoogleOverlayRaven
+
+# SystemUIGoogleOverlay
+PRODUCT_PACKAGES += \
+    SystemUIGoogleOverlayRaven
+endif
 
 # Vendor Displayconfig
 PRODUCT_COPY_FILES += \

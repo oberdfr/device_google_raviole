@@ -16,4 +16,6 @@
     <!-- Whether to show Touch Sensitivity -->
     <bool name="config_show_touch_sensitivity">true</bool>
 
+    <!-- Whether ReparMode is supported -->
+    <!-- <bool name="config_repairModeSupported">true</bool> -->
 </resources>

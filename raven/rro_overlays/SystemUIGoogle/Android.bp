@@ -1,5 +1,5 @@
 runtime_resource_overlay {
-    name: "SettingsGoogleOverlayRaven",
+    name: "SystemUIGoogleOverlayRaven",
     certificate: "platform",
     sdk_version: "current",
     product_specific: true
