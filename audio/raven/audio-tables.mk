@@ -52,6 +52,11 @@ PRODUCT_COPY_FILES += \
     device/google/raviole/audio/$(AUDIO_TABLE_FOLDER)/tuning/waves/waves_config.ini:$(TARGET_COPY_OUT_VENDOR)/etc/waves_config.ini \
     device/google/raviole/audio/$(AUDIO_TABLE_FOLDER)/tuning/waves/waves_preset.mps:$(TARGET_COPY_OUT_VENDOR)/etc/waves_preset.mps
 
+
+# LE Audio codec capabilities
+PRODUCT_COPY_FILES += \
+    device/google/raviole/audio/$(AUDIO_TABLE_FOLDER)/config/le_audio_codec_capabilities.xml:$(TARGET_COPY_OUT_VENDOR)/etc/le_audio_codec_capabilities.xml
+
 # userdebug specific
 ifneq (,$(filter userdebug eng, $(TARGET_BUILD_VARIANT)))
 PRODUCT_COPY_FILES += \
@@ -75,3 +80,4 @@ PRODUCT_COPY_FILES += \
     device/google/raviole/audio/$(AUDIO_TABLE_FOLDER)/tuning/waves/tests/test_preset.mps:$(TARGET_COPY_OUT_VENDOR)/etc/test_preset.mps
 
 endif
+
