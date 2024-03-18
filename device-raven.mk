@@ -38,6 +38,10 @@ DEVICE_PACKAGE_OVERLAYS += device/google/raviole/raven/overlay
 PRODUCT_PACKAGES += \
     SettingsGoogleOverlayRaven
 
+# Vendor Displayconfig
+PRODUCT_COPY_FILES += \
+    device/google/raviole/raven/displayconfig/display_id_4619827677550801152.xml:$(TARGET_COPY_OUT_VENDOR)/etc/displayconfig/display_id_4619827677550801152.xml
+
 include device/google/raviole/audio/raven/audio-tables.mk
 include device/google/gs101/device-shipping-common.mk
 include device/google/gs101/telephony/pktrouter.mk
