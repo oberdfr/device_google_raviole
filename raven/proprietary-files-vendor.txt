@@ -159,7 +159,6 @@ vendor/etc/database/DbEcc_750.xml
 vendor/etc/database/DbEcc_DEFAULT.xml
 vendor/etc/database/DbEcc_ICCID.xml
 vendor/etc/database/ecc_version
-vendor/etc/displayconfig/display_id_4619827677550801152.xml
 vendor/etc/init/Exynos_C2.rc
 vendor/etc/init/android.hardware.authsecret-service.citadel.rc
 vendor/etc/init/android.hardware.bluetooth-service.bcmbtlinux.rc
